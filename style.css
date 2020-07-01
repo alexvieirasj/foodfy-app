@@ -18,7 +18,7 @@ h1 {
 }
 
 #container {
-    width: 68%; /*fica dinâmico*/
+    width: 940px; /*fica dinâmico*/
     max-width: 1100px; /*fica no máximo 1100px*/
     height: 100%;
 
@@ -101,6 +101,21 @@ main {
 main h1 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+ .cards {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.card img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
 }
 
 
