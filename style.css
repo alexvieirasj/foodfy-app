@@ -95,7 +95,7 @@ h1 {
 }
 
 main {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 main h1 {
@@ -150,6 +150,18 @@ footer p {
     font-size: 14px;
     color: #999999;
     text-align: center;
+}
+
+
+#sobre {
+    font-weight: bold;
+}
+
+.content-about p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 30px;
 }
 
 /*=== PADRÃO ===*/
