@@ -5,7 +5,6 @@
 ## 💻 Detalhes do projeto
 
 Esse projeto faz parte dos desafios propostos no curso de bootcamp launchbase  da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa de receitas Foodfy.
-Acesse o sistema: https://alexvieirasj.github.io/foodfy/index.html
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./public/assets/index-sistema.JPG" width="800px"/>
