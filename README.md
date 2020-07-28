@@ -1,14 +1,13 @@
 <h1 align="center">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/logo.png" width="100px" />
+  <img alt="Foodfy" title="Foodfy" src="./public/assets/logo.png" width="100px" />
 </h1>
 
 ## 💻 Detalhes do projeto
 
 Esse projeto faz parte dos desafios propostos no curso de bootcamp launchbase  da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa de receitas Foodfy.
-Acesse o sistema: https://alexvieirasj.github.io/foodfy/index.html
 
 <h1 align="center">
-    <img alt="Capa Projeto" title="CapaProjeto" src="./assets/index-sistema.JPG" width="800px"/>
+    <img alt="Capa Projeto" title="CapaProjeto" src="./public/assets/index-sistema.JPG" width="800px"/>
 </h1>
 
 ## :rocket: Tecnologias utilizadas no projeto
