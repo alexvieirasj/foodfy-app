@@ -7,18 +7,22 @@
 
         <main>
 
-            <section class="cards">
-
-                {% for item in items %} 
+            <section class="recipe">
+               
                 <div class="card card_recipe" id="{{item.id}}">
-                    <img src="{{item.image}}" alt="{{item.title}}">
+                    <img src="../{{item.image}}" alt="{{item.title}}">
 
                     <div class="content">
                         <h3>{{item.title}}</h3>
                         <p>por {{item.author}}</p>
                     </div>
+
+                    <div class="ingredients">
+                         <h5>Ingredientes</h5>
+                         <p>por {{item.ingredients}}</p>
+                    <div>
                 </div>
-                {% endfor %}
+                
 
             </section>
         </main>
