@@ -2,7 +2,33 @@
 const modalOverlay = document.querySelector('.modal-overlay');
 const cards = document.querySelectorAll('.card_index');
 const cards_recipes = document.querySelectorAll('.card_recipe');
+const recipe = document.querySelectorAll('.ingredients');
 
+
+//Redireciona o id do array
+for(let card of recipe) {
+    card.addEventListener('click', function(){
+
+        var visibility =  card.querySelector('ul').getAttribute('class');
+        
+        if(visibility == "hidden"){ 
+            card.querySelector('ul').classList.remove('hidden');
+            card.querySelector('ul').classList.add('visibility');
+            card.getElementsByTagName('p')[0].innerHTML = "ESCONDER"; 
+
+        } else {
+            card.querySelector('ul').classList.remove('visibility');
+            card.querySelector('ul').classList.add('hidden');
+            card.getElementsByTagName('p')[0].innerHTML = "MOSTRAR";
+        }
+
+
+    });
+}
+
+
+
+//Redireciona o id do array
 for(let card of cards_recipes) {
     card.addEventListener('click', function(){
         const recipeId = card.getAttribute('id');
@@ -11,6 +37,7 @@ for(let card of cards_recipes) {
 }
        
 
+//Modal da página inicial
 for(let card of cards) {
     card.addEventListener('click', function(){
         const videoId = card.getAttribute('id'); //pega o id
@@ -33,3 +60,5 @@ document.querySelector('.close-modal')
         modalOverlay.querySelector('img').src = ""; //busca na propriedade diretamente
     });
 
+    modalOverlay.classList.add('active');
+    modalOverlay.classList.remove('active');

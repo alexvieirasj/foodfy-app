@@ -30,7 +30,7 @@ server.get("/receitas/:index", function (req, res) {
   
     const recipeIndex = req.params.index;
 
-    console.log(recipes[recipeIndex]);
+    // console.log(recipes[recipeIndex]);
     return res.render("receita", { item: recipes[recipeIndex] });
  
 });

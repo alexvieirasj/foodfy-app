@@ -9,19 +9,48 @@
 
             <section class="recipe">
                
-                <div class="card card_recipe" id="{{item.id}}">
+                <div class="" id="{{item.id}}">
                     <img src="../{{item.image}}" alt="{{item.title}}">
-
+                </div>
                     <div class="content">
                         <h3>{{item.title}}</h3>
                         <p>por {{item.author}}</p>
                     </div>
 
                     <div class="ingredients">
-                         <h5>Ingredientes</h5>
-                         <p>por {{item.ingredients}}</p>
-                    <div>
-                </div>
+                        <div class="title_action" id="ingredientes">
+                            <h5>Ingredientes</h5>
+                            <p>ESCONDER</p>    
+                        </div> 
+                        <ul class="visibility">
+                            {% for ingredient in item.ingredients %} 
+                                <li>{{ingredient}};</li>
+                            {% endfor %}
+                        </ul>                        
+                        
+                    </div> 
+
+                    <div class="ingredients">
+                        <div class="title_action" id="modoPreparo">
+                            <h5>Modo de preparo</h5>
+                            <p>ESCONDER</p> 
+                        </div>                         
+                         <ul class="visibility">
+                            {% for preparation in item.preparation %} 
+                                <li>{{preparation}}</li>
+                            {% endfor %}
+                        </ul>    
+                    </div>    
+                        
+                     <div class="ingredients">
+                        <div class="title_action" id="informacao">
+                            <h5>Informações adicionais</h5>
+                            <p>ESCONDER</p> 
+                        </div>                         
+                      
+                       <ul class="visibility" style="margin-left: 0px;"><li style="list-style-type: none;">{{item.information}}</li></ul>                   
+                    </div>   
+            
                 
 
             </section>
