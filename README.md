@@ -33,7 +33,7 @@ As tecnologias utilizadas no projeto foram:
     $ git clone https://github.com/alexvieirasj/foodfy.git
 
     # Entrar no diretório baixado
-    $ cd nlw
+    $ cd foodfy
 
     # Instalar as dependências        
     $ npm install 
