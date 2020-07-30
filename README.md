@@ -17,17 +17,31 @@ As tecnologias utilizadas no projeto foram:
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [NPM](https://www.npmjs.com/)
+- [Nodemon](https://nodemon.io/)
 
 ## :package: Como utilizar o projeto
 
-É preciso ter instalado no computador o [Git](https://git-scm.com) para clonar o projeto através das linhas de comando. O projeto também pode ser baixado no formato zip clicando no botão "Code" na opção "Download ZIP"
+É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para clonar o projeto através das linhas de comando. O projeto também pode ser baixado no formato zip clicando no botão "Code" na opção "Download ZIP"
 
 ```bash
 
     # Clonar o repositório
     $ git clone https://github.com/alexvieirasj/foodfy.git
 
-    # Entrar no diretório baixado e executar qualquer arquivo html    
+    # Entrar no diretório baixado
+    $ cd nlw
+
+    # Instalar as dependências        
+    $ npm install 
+
+    # Iniciar o projeto
+    $ npm start 
+    
+    # running on port 5000 
 ```
 
 ## :memo: Licença
