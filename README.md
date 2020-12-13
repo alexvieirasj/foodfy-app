@@ -4,7 +4,7 @@
 
 ## 💻 Detalhes do projeto
 
-Esse projeto faz parte dos diversos desafios propostos no curso do bootcamp launchbase  da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa (ficticia) de receitas online chamada Foodfy.
+Esse projeto faz parte dos diversos desafios propostos no curso do bootcamp launchbase da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa (ficticia) de receitas online chamada Foodfy.
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./public/assets/index-sistema.JPG" width="800px"/>
@@ -25,7 +25,7 @@ As tecnologias utilizadas no projeto foram:
 
 ## :package: Como utilizar o projeto
 
-É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para rodar o projeto através das linhas de comando. O projeto também pode ser baixado no formato zip clicando no botão "Code" na opção "Download ZIP"
+É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para rodar o projeto através das linhas de comando. O projeto também pode ser baixado para o computador no formato zip clicando no botão "Code" na opção "Download ZIP"
 
 ```bash
 
