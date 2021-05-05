@@ -4,7 +4,7 @@
 
 ## 💻 Detalhes do projeto
 
-Esse projeto faz parte dos diversos desafios propostos no curso do bootcamp launchbase da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa (ficticia) de receitas online chamada de Foodfy.
+Esse projeto faz parte dos diversos desafios propostos no curso do bootcamp launchbase da empresa [Rocketseat](https://rocketseat.com.br/). A ideia é construir um site completo para uma empresa (ficticia, criada apenas para o projeto) de receitas online chamada de Foodfy.
 
 <h1 align="center">
     <img alt="Capa Projeto" title="CapaProjeto" src="./public/assets/index-sistema.JPG" width="800px"/>
