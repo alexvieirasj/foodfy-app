@@ -25,7 +25,7 @@ As tecnologias utilizadas no projeto foram:
 
 ## :package: Como utilizar o projeto
 
-É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para rodar o projeto através das linhas de comando. O projeto também pode ser baixado para o computador no formato zip clicando no botão "Code" na opção "Download ZIP"
+É preciso ter instalado no computador o [Git](https://git-scm.com) e o [Node.js](https://nodejs.org/) para rodar o projeto através das linhas de comando. O projeto tem a possibilidade de ser baixado para o computador no formato zip clicando no botão "Code" na opção "Download ZIP"
 
 ```bash
 
