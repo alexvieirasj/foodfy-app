@@ -46,5 +46,5 @@ As tecnologias utilizadas no projeto foram:
 
 ## :memo: Licença
 
-Este projeto está sob a MIT License. Acesso o arquivo [LICENSE](https://github.com/alexvieirasj/foodfy/blob/master/LICENSE) para maiores detalhes.
+Este projeto está sob a MIT License. Acesso o arquivo [LICENSE](https://github.com/alexvieirasj/foodfy/blob/master/LICENSE) para saber maiores detalhes.
 
