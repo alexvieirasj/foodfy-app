@@ -55,10 +55,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/alexvieirasj/foodfy.git
+    $ git clone git@github.com:alexvieirasj/foodfy-app.git
 
     # Entrar no diretório baixado
-    $ cd foodfy
+    $ cd foodfy-app
 
     # Instalar as dependências        
     $ npm install 
